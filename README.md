@@ -29,3 +29,11 @@ The following features have been implemented:
 - [X] Added a subfooter
 
 ![Landing Page](images/screenshot.png)
+
+
+## Enabled Workflow
+
+- Triggers when code is pushed to the main branch
+- Sets up an Ubuntu environment with Hugo (extended version 0.144.1)
+- Builds the website with draft content, garbage collection, and minification
+-Deploys the generated static files to GitHub Pages via the gh-pages branch
